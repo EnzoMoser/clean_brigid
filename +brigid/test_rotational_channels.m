@@ -35,4 +35,8 @@ function [all_correct] = test_rotational_channels()
       rad2deg(abs(angdiff(a(c, 1, 1), a(c, 1, 2))))
     end
   end
+
+    
+a = [sig_t(:, s), sig_r(:, s), sig_z(:, s)];
+display(a(1))
 end
